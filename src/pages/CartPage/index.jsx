@@ -157,7 +157,7 @@ const CartPage = () => {
             }
           >
             <Row justify="space-between">
-              <h4>Tổng tiền</h4>
+              <h4>Tổng tiền: </h4>
               <h4>{(provisionalPrice + shipFee - 0).toLocaleString()}₫</h4>
             </Row>
           </Card>
